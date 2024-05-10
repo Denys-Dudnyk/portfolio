@@ -6,12 +6,21 @@ import Footer from '@/components/footer'
 import ThemeSwitch from '@/components/theme-switch'
 import ThemeContextProvider from '@/context/theme-context'
 import { Toaster } from 'react-hot-toast'
+import { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
+export const metadata: Metadata = {
 	title: 'Denys Dudnyk | Personal Portfolio',
 	description: "I'm a Front-end developer with 2 years of experience.",
+	icons: {
+		icon: [
+			{
+				url: '/images/favicon.ico',
+				href: '/images/favicon.ico',
+			},
+		],
+	},
 }
 
 export default function RootLayout({
