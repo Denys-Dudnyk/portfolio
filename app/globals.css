@@ -38,11 +38,37 @@ html.dark {
 		transform: translate(var(--tw-translate-x), var(--tw-translate-y))
 			rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
 			scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-		right: -5rem /* -80px */;
 	}
 
-	@media (max-width: 320px) {
-		width: 100%;
-		height: 100%;
+	@media (max-width: 768px) {
+		--tw-scale-x: none;
+		--tw-scale-y: none;
+		--tw-translate-x: none;
+		--tw-translate-y: none;
+		--tw-rotate: none;
+		transition: none;
+		transform: none;
+		rotate: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	@media (max-width: 425px) {
+		--tw-scale-x: none;
+		--tw-scale-y: none;
+		--tw-translate-x: none;
+		--tw-translate-y: none;
+		--tw-rotate: none;
+		transition: none;
+		transform: none;
+		rotate: none;
+		right: 0;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 }
