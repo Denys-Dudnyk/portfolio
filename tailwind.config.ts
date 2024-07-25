@@ -20,9 +20,12 @@ const config: Config = {
 
 			sm: '640px',
 			smMax: { max: '640px' },
+			smMin: { min: '640px' },
 
 			md: '768px',
 			mdMax: { max: '768px' },
+			mdMin: { min: '948px' },
+			lgMax: { max: '948px' },
 
 			lg: '1024px',
 

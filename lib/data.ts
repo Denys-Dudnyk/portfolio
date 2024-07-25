@@ -3,7 +3,8 @@ import { CgWorkAlt } from 'react-icons/cg'
 import { FaReact } from 'react-icons/fa'
 import { LuGraduationCap } from 'react-icons/lu'
 
-const onlineCinemaImg = '/online-cinema.png'
+const onlineCinemaImg = '/online-cinema.mp4'
+const ecommerceImg = '/ecommerce.mp4'
 const eduSKImg = '/edu-sk.png'
 const sigmanit = '/sigmanit.png'
 
@@ -67,6 +68,23 @@ export const experiencesData = [
 
 export const projectsData = [
 	{
+		title: 'SnaZZy ECommerce',
+		description:
+			'In this project, I demonstrate an advanced e-commerce platform currently being developed using a modern technology stack. This project highlights my skills in full stack development including frontend, backend and database management.',
+		tags: [
+			'React',
+			'Next.js 14',
+			'MongoDB',
+			'Tailwind',
+			'OAuth',
+			'TypeScript',
+			'Effector',
+			'React-admin',
+		],
+		imageUrl: ecommerceImg,
+		link: 'https://snazzy-ecommerce.vercel.app',
+	},
+	{
 		title: 'Online Cinema',
 		description:
 			'I was developing a website using React(Next JS) + NestJS. I created a fully functional online cinema with  authorization (with JWT tokens and passport.js) and an admin panel.',
@@ -81,6 +99,7 @@ export const projectsData = [
 			'TanStack Query',
 		],
 		imageUrl: onlineCinemaImg,
+		link: 'https://cinemaaps.vercel.app',
 	},
 	{
 		title: 'Education in Slovakia',
@@ -88,6 +107,7 @@ export const projectsData = [
 			'I was developing the frontend and backend parts. There was also implemented a multilingual feature on the website.',
 		tags: ['React', 'TypeScript', 'Next.js', 'Nest.js', 'Tailwind', 'i18n'],
 		imageUrl: eduSKImg,
+		link: '',
 	},
 	{
 		title: 'SIGMANIT',
@@ -95,6 +115,7 @@ export const projectsData = [
 			'I developed and maintained a website for the sale of chemical components.',
 		tags: ['React', 'Next.js', 'Nest.js', 'Tailwind', 'Framer', 'Nodemailer'],
 		imageUrl: sigmanit,
+		link: '',
 	},
 ] as const
 

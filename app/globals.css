@@ -15,8 +15,11 @@ html.dark {
 }
 
 .responsive {
-	@media (max-width: 640px) {
+	@media (max-width: 948px) {
 		position: relative;
+
+		border-top-left-radius: 0.5rem /* 8px */;
+		border-top-right-radius: 0.5rem /* 8px */;
 
 		--tw-translate-x: 0.75rem /* 12px */;
 		transform: translate(var(--tw-translate-x), var(--tw-translate-y))
@@ -40,7 +43,7 @@ html.dark {
 			scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 	}
 
-	@media (max-width: 768px) {
+	@media (max-width: 948px) {
 		--tw-scale-x: none;
 		--tw-scale-y: none;
 		--tw-translate-x: none;
@@ -62,6 +65,7 @@ html.dark {
 		--tw-rotate: none;
 		transition: none;
 		transform: none;
+
 		rotate: none;
 		right: 0;
 		left: 0;
