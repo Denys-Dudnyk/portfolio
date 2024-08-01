@@ -104,18 +104,18 @@ export const projectsData = [
 	{
 		title: 'Education in Slovakia',
 		description:
-			'I was developing the frontend and backend parts. There was also implemented a multilingual feature on the website.',
+			'Education in Slovakia is a platform for purchasing services of document processing and support in enrollment in the Universities of Slovakia. I was developing the frontend and backend parts. There was also implemented a multilingual feature on the website.',
 		tags: ['React', 'TypeScript', 'Next.js', 'Nest.js', 'Tailwind', 'i18n'],
 		imageUrl: eduSKImg,
-		link: '',
+		link: 'https://edu-slovakia.com',
 	},
 	{
 		title: 'SIGMANIT',
 		description:
-			'I developed and maintained a website for the sale of chemical components.',
+			'I developed and maintained a website for the sale of chemical components for an Estonian company.',
 		tags: ['React', 'Next.js', 'Nest.js', 'Tailwind', 'Framer', 'Nodemailer'],
 		imageUrl: sigmanit,
-		link: '',
+		link: 'https://sigmanit.com',
 	},
 ] as const
 
